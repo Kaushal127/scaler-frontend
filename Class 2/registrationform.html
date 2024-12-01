@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+     <!-- Name -->
+      <div>
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter fullname" name="fullname">  
+      </div>  
+     <!-- Email -->
+      <div>
+        <label for="">Email</label>
+        <input type="email" placeholder="Enter email" name="email">
+      </div>
+     <!-- phone -->
+      <div>
+        <label for="">Contact</label>
+        <input type="number" placeholder="Enter phone number" name="phone">
+      </div>
+     <!-- Degree -->
+       <div>
+           <label for="">Degree</label>
+           <select name="degree" id="">
+              <option value="id1">--</option>
+              <option value="id2">BE</option>
+              <option value="id3">BA</option>
+              <option value="id4">BTECH</option>
+           </select>
+       </div>
+     <!-- Grad Year -->
+       <div>
+            <label for="">DOB</label>
+            <input type="date" name="dob">
+       </div>
+    
+     <!-- Gender -->
+       <div>
+            <span>Gender</span>
+            <div>
+                <label for="">Male</label>
+                <input type="radio" name="gender" value="M" />
+                <label for="">Female</label>
+                <input type="radio" name="gender" value="F"/>
+                <label for="">Other</label>
+                <input type="radio" name="gender" value="O"/>
+            </div> 
+        </div>
+     <!-- course slot -->
+       <div>
+            <span>Course Slot</span>
+            <div>
+                <label for="">Morning</label>
+                <input type="checkbox" value="m" name="slot">
+                <label for="">Evening</label>
+                <input type="checkbox" value="e" name="slot">
+            </div>
+       </div>
+     <!-- Profile photo -->
+        <div>
+            <label for="">Profile Picture</label>
+            <input type="file" accept=".png,.jpg,.jpeg"/>
+        </div>
+      <!-- Tel me about urself -->
+       <div>
+            <label for="">Introduction</label>
+            <textarea name="intro" id=""></textarea>
+       </div>
+     <!-- Submit -->
+      <div>
+            <button>Submit</button>
+      </div>
+    </form>    
+</body>
+</html>
